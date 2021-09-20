@@ -1,0 +1,91 @@
+/* Write some CSS below */
+body {
+  background-color: #4A5899;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,h2,h3 {
+  font-family: 'Archivo', sans-serif;
+  color: rgb(230,230,230);
+}
+
+p {
+
+  font-family: 'Overpass', sans-serif;
+}
+
+
+.banner {
+  text-align: center;
+  background-image: url(images/background.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 180px 100px;
+}
+
+.banner h1 {
+  color: yellow;
+  font-size: 45px;
+}
+
+.banner p {
+  color: rgb(230,230,230);
+  text-shadow: 1px 1px 2px rgb(0,0,0);
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+
+.btn-blue {
+  color: white;
+  background-color: #559CAD;
+  padding: 15px 30px;
+  border-radius: 5px;
+  margin-top: 16px;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.1);
+  transition: 0.2s;
+}
+
+.btn-blue:hover {
+  background-color: #498897;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 16px;
+}
+
+.card-white {
+  background-color: rgb(230,230,230);
+  box-shadow: 1px 1px 1px rgb(0,0,0);
+  padding: 12px;
+  border-radius: 5px;
+}
+
+.card-white img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.card-white h3 {
+  color: rgb(30,30,30);
+}
+
+.container {
+  width: 900px;
+  margin: 50px auto;
+}
+
+.footer {
+  background-color: #404042;
+  padding: 20px 500px;
+  color: white;
+  margin-top: 24px;
+}
+
